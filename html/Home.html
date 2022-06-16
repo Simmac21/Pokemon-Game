@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/game.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="main-div" class="home-container">
+        <div>
+            <h1 class="heading">Player Information</h1>
+        </div>
+        <div class="player-info">
+            <div class="row">
+                <h4 id="userName">User name:</h4>
+                <h4 id="userAge">Age</h4>
+            </div>
+            <div class="row">
+                <h4 id="fav_color">Favorite Color</h4>
+                <h4 id="skill">Skill Level</h4>
+            </div>
+        </div>
+        <div class="score-track">
+            <h1 id="score"></h1>
+        </div>
+        <h1>Identify Pokemon</h1>
+        <div class="pics">
+            <img src="" alt="" id="pic1">
+        </div>
+        <div class="options">
+            <input type="radio" id="a" name="options" value="Charizard">
+            <label for="a" id="op1">Charizard</label>
+            <input type="radio" id="b" name="options" value="Gengar">
+            <label for="b" id="op2">Gengar</label>
+            <input type="radio" id="c" name="options" value="Arcanine">
+            <label for="c" id="op3">Arcanine</label>
+            <input type="radio" id="d" name="options" value="Pikachu">
+            <label for="d" id="op4">Pikachu</label>
+        </div>
+        <button id="submit-btn" class="btn">Submit</button>
+    </div>
+    <div id="res-div" class="result-div">
+        <h1 id="result"></h1>
+        <a href="./Home.html" class="btn" id="Replay">Replay</a>
+    </div>
+    <script src="../js/game.js"></script>
+</body>
+
+</html>

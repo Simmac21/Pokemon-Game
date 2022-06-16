@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/game.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="form" action="./Home.html">
+            <div class="input">
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="input">
+                <label for="age">Enter your age: </label>
+                <input type="number" placeholder="Enter Your Age" id="age">
+            </div>
+            <div class="input">
+                <label for="fv_color">Enter your favorite color name:</label>
+                <input type="text" placeholder="Favorite Color" name="fv_color" id="fv_color">
+            </div>
+            <div class="input">
+                <label>Select your skill level: </label>
+                <input type="radio" name="skill" id="easy" value="Easy">
+                <label for="easy">Easy</label>
+                <input type="radio" name="skill" id="medium" value="Medium">
+                <label for="medium">Medium</label>
+                <input type="radio" name="skill" id="hard" value="Hard">
+                <label for="hard">Hard</label>
+            </div>
+            <button class="btn" id="next-btn">Next</button>
+        </form>
+    </div>
+    <script src="../js/game.js"></script>
+</body>
+
+</html>
